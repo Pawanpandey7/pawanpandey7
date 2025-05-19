@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawan</title>
+    <link rel="stylesheet" href="/portfolio/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Pawan Pandey</div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero fade-in">
+        <div class="hero-content">
+            <h1>Hi, I'm Pawan Pawan</h1>
+            <p>A passionate [Your Title/Profession - e.g., Web Developer, UI/UX Designer]</p>
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="" target="_blank" class="btn btn-secondary">Download CV</a>
+        </div>
+    </section>
+
+    <section id="about" class="container fade-in">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="/portfolio/img/profile.jpeg" alt="Pawan Pandey">
+            </div>
+            <div class="about-text">
+                <p>Welcome to my portfolio! [Write a compelling paragraph about yourself, your passion, skills, and experience. Make it personal and engaging.]</p>
+                <p>[Another paragraph if needed, perhaps about your goals or what you're looking for.]</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container skills-section fade-in">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <i class="fab fa-html5 fa-3x"></i> <h3>HTML5</h3>
+                </div>
+            <div class="skill-item">
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-js-square fa-3x"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-php fa-3x"></i>
+                <h3>PHP</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fas fa-database fa-3x"></i>
+                <h3>MySQL</h3>
+            </div>
+            <div class="skill-item">
+                <i class="fab fa-git-alt fa-3x"></i>
+                <h3>Git</h3>
+            </div>
+            </div>
+    </section>
+
+    <section id="projects" class="container fade-in">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="/portfolio/img/project-design-in-project-management.png" alt="Project 1 Title">
+                <div class="project-info">
+                    <h3>Project 1 Title</h3>
+                    <p>Short description of your project. Highlight the technologies used and your role.</p>
+                    <a href="link-to-live-demo-or-repo" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="/portfolio/img/ProjectManagement.jpg" alt="Project 2 Title">
+                <div class="project-info">
+                    <h3>Project 2 Title</h3>
+                    <p>Short description of your project. Highlight the technologies used and your role.</p>
+                    <a href="link-to-live-demo-or-repo" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section id="contact" class="container contact-section fade-in">
+        <h2>Get In Touch</h2>
+        <p>Have a project in mind or just want to say hi? Feel free to reach out!</p>
+        <form id="contact-form" action="php/contact_form_handler.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+            <div id="form-status"></div> </form>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/pawan-pandey-6a4487119" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/Pawanpandey7" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="/portfolio/js/script.js"></script>
+</body>
+</html>
