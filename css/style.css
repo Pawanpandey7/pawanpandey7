@@ -134,7 +134,7 @@ header nav ul li a:hover, header nav ul li a.active {
 /* Hero Section */
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                      url('/pawanpandey7/img/images.jpeg');
+                      url('/img/images.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
